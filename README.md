@@ -40,15 +40,3 @@ Developed as part of the MSc Computer Science module *Object-Oriented Programmin
 - **java.util.Random** for reproducibility of random arrays  
 
 ---
-
-## Example Usage
-```java
-int[][] with = {
-    {-9, 12, -6},
-    { 7, 14,  5},
-    {10, -8,  3},
-    { 6, 17, -10}
-};
-
-System.out.println(SaddlePoints.hasSaddlePoint(with));
-// true → Saddle point found at row 1, col 2 (value = 5)
